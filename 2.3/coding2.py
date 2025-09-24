@@ -14,3 +14,10 @@ Judge 4: 8.5
 Judge 5: 9
 Your Olympic score is 8.0
 """
+print("enter 5 scores, can be decimals")
+score1 = float(input("Judge 1: "))
+score2 = float(input("Judge 2: "))
+score3 = float(input("Judge 3: "))
+score4 = float(input("Judge 4: "))
+score5 = float(input("Judge 5: "))
+print("your score is", (score1 + score2 + score3 + score4 + score5)/5)
